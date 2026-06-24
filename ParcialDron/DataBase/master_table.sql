@@ -1,4 +1,4 @@
-CREATE TABLE tb_master_control (
+CREATE TABLE IF NOT EXISTS tb_master_control (
     id SERIAL PRIMARY KEY,
     n INT NOT NULL,
     x_inicio INT NOT NULL,
